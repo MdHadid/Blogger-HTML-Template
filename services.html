@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blogger - International</title>
+<!--Favicon-->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+<!--Custom css-->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!--Font awesome-->
+<link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/all.css">
+
+<!--jQuery-->
+<script src="vendor/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!--Start header-->
+<div class="header template clear">
+
+	<div class="logo">
+	    <a href="index.html"><img src="images/logo.png" alt="No-image"></a>
+		<div class="logo-content">
+			<h2>An International</h2>
+      <p>Blogging Site</p>
+        </div>
+    </div>
+
+    <div class="social">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <!--<div class="social">
+        <a href="https://www.facebook.com" target="_blank"><img src="images/social/facebook.png" alt="No-image"></a>
+        <a href="https://twitter.com" target="_blank"><img src="images/social/twitter.png" alt="No-image"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="images/social/linkedin.png" alt="No-image"></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="images/social/youtube.png" alt="No-image"></a>
+    </div>-->
+
+</div>
+<!--End Header-->
+
+<!--Start Navigation-->
+<div class="navigation template">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a id="active" href="services.html">Services</a>
+            <ul>
+                <li><a href="services.html">Services one</a></li>
+                <li><a href="services.html">Services two</a></li>
+                <li><a href="services.html">Services three</a></li>
+                <li><a href="services.html">Services four</a></li>
+            </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<!--End Navigation-->
+
+
+<!--Start main-content-->
+<div class="main-content content-template clear">
+    <div class="content clear">
+        <div class="about">
+        	<h2>Services</h2>
+        	<img src="images/services.jpg" alt="No-image">
+            <p>Donec pede justo fringilla vel aliquet nec vulputate eget. Lorem ispum dolore siamet ipsum dolor.Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumquer nihil impedit quo minus id quod maxime placeat.</p>
+
+            <p>Donec pede justo fringilla vel aliquet nec vulputate eget. Lorem ispum dolore siamet ipsum dolor.Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumquer nihil impedit quo minus id quod maxime placeat.</p>
+
+            <p>Donec pede justo fringilla vel aliquet nec vulputate eget. Lorem ispum dolore siamet ipsum dolor.Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumquer nihil impedit quo minus id quod maxime placeat.</p>
+
+            <p>Donec pede justo fringilla vel aliquet nec vulputate eget. Lorem ispum dolore siamet ipsum dolor.Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumquer nihil impedit quo minus id quod maxime placeat.</p>
+        </div>
+        <div class="sorting">
+            <h2>Our latest services</h2>
+
+            <div id="filters" class="button-group">  
+              <button class="button is-checked" data-filter="*">All services</button>
+              <button class="button" data-filter=".metal">Services-1</button>
+              <button class="button" data-filter=".transition">Services-2</button>
+              <button class="button" data-filter=".alkali, .alkaline-earth">Services-3</button>
+              <button class="button" data-filter=":not(.transition)">Services-4</button>
+            </div>
+            <div class="grid">
+              <div class="element-item transition metal " data-category="transition">
+                  <img src="images/post/1.jpg" alt="No-image"></a>
+              </div>
+              <div class="element-item metalloid " data-category="metalloid">
+                  <img src="images/post/2.jpg" alt="No-image"></a>
+              </div>
+              <div class="element-item post-transition metal " data-category="post-transition">
+                  <img src="images/post/3.jpg" alt="No-image"></a>
+              </div>
+              <div class="element-item post-transition metal " data-category="post-transition">
+                  <img src="images/post/4.jpg" alt="No-image"></a>
+              </div>
+              <div class="element-item transition metal " data-category="transition">
+                  <img src="images/gallery/gallery1.jpg" alt="No-image"></a>
+              </div>
+              <div class="element-item alkali metal " data-category="alkali">
+                  <img src="images/gallery/gallery2.jpg" alt="No-image"></a>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="sidebar clear">
+    <div class="sidebar-content clear">
+      <h2>Latest articles</h2>  
+      <ul>
+        <li><a href="single-post.html">BREAKFAST FRIED WITH BACON</a></li>
+        <li><a href="single-post.html">Tips for Visiting Florence</a></li>
+        <li><a href="single-post.html">What To Wear This Autumn</a></li>
+        <li><a href="single-post.html">General Magic to a smartphone</a></li>
+      </ul>
+    </div>
+    <div class="sidebar-content clear">
+      <h2>Popular articles</h2>
+      <div class="popular-post clear">
+      <h3><a href="single-post.html" target="_blank">General Magic tried to invent a smartphone</a></h3>
+        <a href="single-post.html" target="_blank"><img src="images/post/1.jpg" alt="No-image"></a>
+        <p>Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis.</p>
+      </div>
+
+      <div class="popular-post clear">
+      <h3><a href="single-post.html" target="_blank">What To Wear This Autumn</a></h3>
+        <a href="single-post.html" target="_blank"><img src="images/post/2.jpg" alt="No-image"></a>
+        <p>Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis.</p>
+      </div>
+
+      <div class="popular-post clear">
+      <h3><a href="single-post.html" target="_blank">Tips for Visiting Florence</a></h3>
+        <a href="single-post.html" target="_blank"><img src="images/post/3.jpg" alt="No-image"></a>
+        <p>Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis.</p>
+      </div>
+
+      <div class="popular-post clear">
+      <h3><a href="single-post.html" target="_blank">BREAKFAST FRIED WITH BACON</a></h3>
+        <a href="single-post.html" target="_blank"><img src="images/post/4.jpg" alt="No-image"></a>
+        <p>Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer template clear">
+    <div class="footer-menu clear">
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <p>Copyright &copy; 2019 Blogger-International. Designed by Md.Hadid Rahman</p>
+</div>
+
+<div class="fixed-social">
+    <a href="https://www.facebook.com" target="_blank"><img src="images/social/facebook.png" alt="No-image"></a>
+    <a href="https://twitter.com" target="_blank"><img src="images/social/twitter.png" alt="No-image"></a>
+    <a href="https://www.linkedin.com" target="_blank"><img src="images/social/linkedin.png" alt="No-image"></a>
+    <a href="https://www.youtube.com" target="_blank"><img src="images/social/youtube.png" alt="No-image"></a>
+</div>
+
+<script src="vendor/js/isotope.js"></script>
+<script src="vendor/js/isotope-option.js"></script>
+</body>
+</html>
